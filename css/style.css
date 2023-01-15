@@ -373,6 +373,10 @@ ul.social {
 ul.social a {
   color: #fff;
   display: block;
+  font-size: 25px;
+}
+ul.social a:hover {
+  color: rgba(0, 0, 50);
 }
 
 section.extra-section {
