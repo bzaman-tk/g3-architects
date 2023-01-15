@@ -643,5 +643,6 @@ section.extra-section {
 
   .feature-image {
     position: relative;
+    margin: 0 auto;
   }
 }
