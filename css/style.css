@@ -220,6 +220,20 @@ section.features {
   margin: 0;
 }
 
+.single-feature {
+  height: 171px;
+  overflow: hidden;
+}
+
+.single-feature p {
+  overflow: hidden;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 .feature-image {
   max-width: 800px;
 }
@@ -444,6 +458,7 @@ section.extra-section {
 
   .quick-list-image {
     grid-template-columns: 1fr;
+    margin-top: 30px;
   }
 
   .quick-list-content {
