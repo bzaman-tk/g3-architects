@@ -562,3 +562,86 @@ section.extra-section {
     text-align: center;
   }
 }
+
+/* for tablet  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  header.main-header .container {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header.main-header {
+    padding: 35px 0;
+  }
+
+  .facts-wrap {
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fact {
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+  }
+
+  .extra-wrap {
+    max-width: initial;
+  }
+
+  .companyes {
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.facts {
+    margin-top: 50px;
+  }
+
+  section.quick-list {
+    padding: 80px 0;
+  }
+
+  .quick-list-content {
+    max-width: 45%;
+  }
+
+  .btn-displace {
+    top: initial;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    max-width: 350px;
+    position: absolute;
+    bottom: 100px;
+  }
+
+  section.features {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  .feature-content {
+    max-width: initial;
+  }
+
+  .feature-image {
+    position: relative;
+  }
+}
